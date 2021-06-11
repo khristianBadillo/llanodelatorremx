@@ -9,8 +9,7 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "image#example",
       "newsletter"
     ]
   },
@@ -21,11 +20,11 @@
       "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://s3.amazonaws.com/llanomx.wcaas.media/espots/home-welcome-slider/HomeWelcome_renueva_1300x400.png",
+          "mobileImage": "https://s3.amazonaws.com/llanomx.wcaas.media/espots/home-welcome-slider/HomeWelcome_renueva_500x500.png"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "image": "https://s3.amazonaws.com/llanomx.wcaas.media/espots/home-welcome-slider/helvex_1300x400px.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ]
@@ -79,6 +78,7 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      //"imageUrl": "https://s3.amazonaws.com/llanomx.wcaas.media/espots/home-banners-youtube/mayo-800x1000.jpg",
       "headline": "Clearance Sale",
       "callToActionText": "DISCOVER",
       "callToActionUrl": "/sale/d",
@@ -98,6 +98,14 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+    "image#example": {
+    "props": {
+      "src": "https://s3.amazonaws.com/llanomx.wcaas.media/espots/home-single-banner/HomeSingle_1300x300.jpg",
+      "maxHeight":300,
+      "maxWidth":1300,
+      "blockClass": "example"
     }
   }
 }

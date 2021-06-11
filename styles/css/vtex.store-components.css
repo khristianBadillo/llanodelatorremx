@@ -1,5 +1,5 @@
 .notificationBarContainer {
-  background-color: #e6f1e6;
+  background-color: #ffffff;
   color: #03034e;
   font-weight: 700;
   font-size: 12px;
@@ -14,7 +14,7 @@
 }
 
 .newsletter {
-  background-color: #03054e;
+  background-color: #eeeeee;
   max-width: 1528px;
   margin: 0 auto;
 }
@@ -24,8 +24,8 @@
 }
 
 .label {
-  color: #fff;
-  font-size: 26px;
+  color: #000000;
+  font-size: 12px;
 }
 
 .inputGroup {
@@ -41,7 +41,7 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
+  color: #000;
   font-size: 16px;
 }
 
@@ -49,11 +49,13 @@
   background-color: transparent;
   color: #fff;
   border: none;
-  margin-right: -24px;
+  margin-right: 24px;
 }
 
 .buttonContainer {
   padding-top: 0px;
+  background-color: #222222;
+  text-align:center;
 }
 
 .imageElement--storePrint {
@@ -67,11 +69,11 @@
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    padding: 30px;
   }
 
   .label {
-    font-size: 40px;
+    font-size: 16px;
   }
 
   .infoCardContainer--info-card-home .infoCardTextContainer {
@@ -110,4 +112,10 @@
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
+}
+
+.imageElement--example {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -4,11 +4,85 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
+      "menu-item#category-pisos",
+      "menu-item#category-adhesivo",
       "menu-item#category-apparel",
       "menu-item#category-home",
       "menu-item#more"
     ]
   },
+  "menu-item#category-pisos": {
+    "props": {
+      "id": "menu-item-category-pisos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 1,
+        "type": "internal",
+        "href": "/pisos-y-muros/",
+        "noFollow": true,
+        "tagTitle": "Pisos y Muros",
+        "text": "Pisos y Muros"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-pisos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-pisos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-pisos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-pisos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-pisos-pisos"
+    ]
+  },
+  "menu-item#category-pisos-pisos": {
+    "props": {
+      "id": "menu-item-category-pisos-pisos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pisos-y-muros/pisos",
+        "noFollow": false,
+        "tagTitle": "Pisos",
+        "text": "Pisos"
+      }
+    }
+  },
+
+  "menu-item#category-adhesivo": {
+    "props": {
+      "id": "menu-item-category-adhesivo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "categoryId": 2,
+        "type": "internal",
+        "href": "/adhesivo",
+        "noFollow": true,
+        "tagTitle": "Adhesivo",
+        "text": "Adhesivo"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-pisos"
+    ]
+  },
+
+
   "menu-item#category-apparel": {
     "props": {
       "id": "menu-item-category-apparel",

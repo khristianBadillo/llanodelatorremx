@@ -29,7 +29,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "Envío gratis desde $800 MXN en CDMX y Zona Metropolitana"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -92,7 +92,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://llanodelatorre.com.mx/static/media/logo.9f6c409e.svg",
       "width": "180"
     }
   },
@@ -136,7 +136,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://llanodelatorre.com.mx/static/media/logo.9f6c409e.svg",
       "width": "70"
     }
   }
