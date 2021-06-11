@@ -9,3 +9,19 @@
 .row--payment-methods {
   padding-top: 16px;
 }
+
+.footerLayout{
+  background-color: #222;
+}
+
+.footerLayout :global(.vtex-menu-2-x-styledLink){
+  color: white;
+  font-size: .8rem;
+  font-weight: 300;
+}
+.footerLayout :global(.vtex-rich-text-0-x-paragraph){
+  color: white;
+}
+.footerLayout :global(.vtex-store-components-3-x-imageElement){
+  margin: 0px 0px;
+}
